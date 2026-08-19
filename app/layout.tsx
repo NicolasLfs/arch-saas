@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: siteConfig.title,
     description: siteConfig.description,
-    images: [{ url: "/logo.png", alt: "ArchSaaS" }],
+    images: [{ url: "/opengraph-image", alt: "ArchSaaS - diagnóstico técnico para SaaS" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: ["/logo.png"],
+    images: ["/twitter-image"],
   },
   robots: {
     index: true,

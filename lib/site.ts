@@ -1,5 +1,5 @@
 export const siteUrl = new URL(
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://saasarchitecturereview.com",
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://arch-saas-one.vercel.app",
 );
 
 export const siteConfig = {
