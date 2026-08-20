@@ -7,6 +7,7 @@ import { HeroSection } from "@/components/home/hero-section";
 import { PricingSection } from "@/components/home/pricing-section";
 import { ProcessSection } from "@/components/home/process-section";
 import { RisksSection } from "@/components/home/risks-section";
+import { WhatsappFloat } from "@/components/home/whatsapp-float";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <CallToAction />
       </main>
       <Footer />
+      <WhatsappFloat />
     </div>
   );
 }

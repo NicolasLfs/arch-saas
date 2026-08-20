@@ -1,6 +1,5 @@
 import { Brand } from "./brand";
 import Link from "next/link";
-import { whatsappUrl } from "@/lib/contact";
 
 export function Footer() {
   return (
@@ -38,12 +37,6 @@ export function Footer() {
             </Link>
           </div>
           <div className="text-left md:text-right">
-            <Link
-                href={whatsappUrl}
-              className="text-sm font-medium text-slate-300 transition-colors hover:text-emerald-300"
-            >
-                Falar pelo WhatsApp
-            </Link>
             <p className="mt-3 text-xs text-slate-700">
               © 2026 ArchSaaS
               <br />
